@@ -1,0 +1,38 @@
+form {
+    border-radius: 12px;
+    background-image: url("../images/03.jpg");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button[type="submit"] {
+    background-color: rgb(57, 48, 141);
+    color: white;
+}
+
+.sub-title {
+    display: block;
+    border-radius: 0px;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width:1024px) {
+    form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .sub-title {
+        display: inline-block;
+    }
+
+    input {
+        font-size: 32px;
+    }
+
+    form {
+        width: 100%;
+    }
+}

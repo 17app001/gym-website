@@ -1,0 +1,108 @@
+#block1 {
+    background-color: aquamarine;
+    color: blueviolet;
+    padding: 12px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.text-1 {
+    padding: 12px;
+    margin: 24px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.text-2 {
+    background-color: black;
+    padding: 24px;
+    color: white;
+    font-size: 16px;
+    /* 元素內對齊方式 */
+    text-align: center;
+    /*  設定尺寸後，需要水平置中，使用margin左右設定成auto */
+    width: 50%;
+    margin: 12px auto;
+}
+
+.text-3 {
+    text-align: left;
+    width: 80%;
+    background-color: burlywood;
+    border-radius: 14px;
+}
+
+.text-3 li {
+    margin-left: 24px;
+}
+
+#block2 {
+    width: 100%;
+    text-align: center;
+    padding: 6px 0px;
+    margin-bottom: 12px;
+}
+
+#block2 img {
+    height: 300px;
+    width: 28%;
+}
+
+img {
+    background-color: white;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: blue;
+}
+
+li a:visited {
+    color: gray;
+}
+
+#table-1 {
+    width: 80%;
+    margin: 0px auto;
+    height: 100px;
+    font-size: 20px;
+}
+
+#table-1 th {
+    background-color: darkblue;
+    color: white;
+}
+
+#table-1 td {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#table-1 td:first-child {
+    background-color: darkblue;
+    color: white;
+}
+
+#table-1 td:nth-child(3) {
+    background-color: darkblue;
+    color: white;
+}
+
+.video {
+    width: 100%;
+}
+
+#block3 {
+    text-align: center;
+}
+
+textarea {
+    width: 90%;
+}

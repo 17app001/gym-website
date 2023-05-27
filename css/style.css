@@ -1,0 +1,61 @@
+body {
+    background-color: antiquewhite;
+}
+
+#container {
+    width: 95%;
+    margin: 24px auto;
+    text-align: center;
+}
+
+/* 次標題設計 */
+.sub-title {
+    display: inline-block;
+    font-size: 1.75rem;
+    font-family: 標楷體, Courier, monospace;
+    background-color: tomato;
+    color: white;
+    padding: 6px 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+}
+
+.title {
+    font-size: 2rem;
+    color: rgb(181, 20, 255);
+    background-color: #e6e6fa;
+    margin: 12px 0px;
+    padding: 50px 30px 20px 30px;
+    border: 3px dotted rgb(112, 64, 64);
+    border-radius: 12px;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    padding: 24px 0px;
+    color: white;
+}
+
+button[type="submit"] {
+    background-color: chartreuse;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+button[type="reset"] {
+    background-color: rgb(172, 0, 9);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+input {
+    text-align: center;
+    margin: 6px 0px;
+}
